@@ -1,0 +1,288 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BLL.Model</name>
+    </assembly>
+    <members>
+        <member name="T:BLL.Model.CommentModel">
+            <summary>
+            系统评论
+            </summary>
+        </member>
+        <member name="P:BLL.Model.CommentModel.ComentContent">
+            <summary>
+            评论意见
+            </summary>
+        </member>
+        <member name="T:BLL.Model.CommentViewModel">
+            <summary>
+            评论信息
+            </summary>
+        </member>
+        <member name="P:BLL.Model.CommentViewModel.CreateTime">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:BLL.Model.CommentViewModel.AvatarUrl">
+            <summary>
+            头像Url
+            </summary>
+        </member>
+        <member name="P:BLL.Model.CommentViewModel.Name">
+            <summary>
+            姓名
+            </summary>
+        </member>
+        <member name="T:BLL.Model.CodeName">
+            <summary>
+            编码名称
+            </summary>
+        </member>
+        <member name="T:BLL.Model.RedisDB">
+            <summary>
+            RedisDB
+            </summary>
+        </member>
+        <member name="T:BLL.Model.FundAnswerModel">
+            <summary>
+            基民常问问题
+            </summary>
+        </member>
+        <member name="P:BLL.Model.FundAnswerModel.AnswerContent">
+            <summary>
+            基金询问问题
+            </summary>
+        </member>
+        <member name="P:BLL.Model.FundAnswerModel.AnswerFundId">
+            <summary>
+            回答基金id
+            </summary>
+        </member>
+        <member name="T:BLL.Model.FundRedisModel">
+            <summary>
+            基金redis信息
+            </summary>
+        </member>
+        <member name="P:BLL.Model.FundRedisModel.Id">
+            <summary>
+            自增id
+            </summary>
+        </member>
+        <member name="P:BLL.Model.FundRedisModel.FundCode">
+            <summary>
+            基金编码
+            </summary>
+        </member>
+        <member name="P:BLL.Model.FundRedisModel.RealValue">
+            <summary>
+            真实值
+            </summary>
+        </member>
+        <member name="P:BLL.Model.FundRedisModel.RealPercentValue">
+            <summary>
+            真实百分之
+            </summary>
+        </member>
+        <member name="P:BLL.Model.FundRedisModel.ShamValue">
+            <summary>
+            估计值
+            </summary>
+        </member>
+        <member name="P:BLL.Model.FundRedisModel.TotalValue">
+            <summary>
+            累计净值
+            </summary>
+        </member>
+        <member name="P:BLL.Model.FundRedisModel.FundName">
+            <summary>
+            基金名称
+            </summary>
+        </member>
+        <member name="P:BLL.Model.FundRedisModel.DateNow">
+            <summary>
+            日期
+            </summary>
+        </member>
+        <member name="T:BLL.Model.FundTypeRedisModel">
+            <summary>
+            基金类型
+            </summary>
+        </member>
+        <member name="P:BLL.Model.FundTypeRedisModel.FundType">
+            <summary>
+            基金类型
+            </summary>
+        </member>
+        <member name="P:BLL.Model.FundTypeRedisModel.FundTypeValue">
+            <summary>
+            基金类型数量
+            </summary>
+        </member>
+        <member name="T:BLL.Model.CurrentUser">
+            <summary>
+            用户信息
+            </summary>
+        </member>
+        <member name="P:BLL.Model.CurrentUser.Id">
+            <summary>
+            自增id
+            </summary>
+        </member>
+        <member name="P:BLL.Model.CurrentUser.UserCode">
+            <summary>
+            用户Redis信息
+            </summary>
+        </member>
+        <member name="P:BLL.Model.CurrentUser.Name">
+            <summary>
+            姓名
+            </summary>
+        </member>
+        <member name="P:BLL.Model.CurrentUser.TelPhone">
+            <summary>
+            电话号码
+            </summary>
+        </member>
+        <member name="P:BLL.Model.CurrentUser.AvatarUrl">
+            <summary>
+            头像Url
+            </summary>
+        </member>
+        <member name="P:BLL.Model.CurrentUser.Token">
+            <summary>
+            token信息
+            </summary>
+        </member>
+        <member name="T:BLL.Model.FollowFundModel">
+            <summary>
+            关注基金
+            </summary>
+        </member>
+        <member name="P:BLL.Model.FollowFundModel.FundCode">
+            <summary>
+            基金编码
+            </summary>
+        </member>
+        <member name="P:BLL.Model.FollowFundViewModel.FundName">
+            <summary>
+            基金名称
+            </summary>
+        </member>
+        <member name="T:BLL.Model.UserFollowFundViewModel">
+            <summary>
+            用户关注基金信息
+            </summary>
+        </member>
+        <member name="P:BLL.Model.UserFollowFundViewModel.FollowFundValues">
+            <summary>
+            关注基金的值
+            </summary>
+        </member>
+        <member name="T:BLL.Model.FollowFundValue">
+            <summary>
+            关注基金的值
+            </summary>
+        </member>
+        <member name="P:BLL.Model.FollowFundValue.UpdateTime">
+            <summary>
+            更新时间
+            </summary>
+        </member>
+        <member name="P:BLL.Model.FollowFundValue.RealValue">
+            <summary>
+            真实值
+            </summary>
+        </member>
+        <member name="T:BLL.Model.UserInfoModel">
+            <summary>
+            用户信息
+            </summary>
+        </member>
+        <member name="P:BLL.Model.UserInfoModel.Name">
+            <summary>
+            姓名
+            </summary>
+        </member>
+        <member name="P:BLL.Model.UserInfoModel.TelPhone">
+            <summary>
+            电话号码
+            </summary>
+        </member>
+        <member name="P:BLL.Model.UserInfoModel.PassWord">
+            <summary>
+            密码
+            </summary>
+        </member>
+        <member name="P:BLL.Model.UserInfoModel.AvatarUrl">
+            <summary>
+            头像Url
+            </summary>
+        </member>
+        <member name="P:BLL.Model.UserInfoModel.FollowFundModels">
+            <summary>
+            关注基金
+            </summary>
+        </member>
+        <member name="T:BLL.Model.UserInfoViewModel">
+            <summary>
+            用户信息
+            </summary>
+        </member>
+        <member name="P:BLL.Model.UserInfoViewModel.Id">
+            <summary>
+            自增id
+            </summary>
+        </member>
+        <member name="P:BLL.Model.UserInfoViewModel.UserCode">
+            <summary>
+            用户Redis信息
+            </summary>
+        </member>
+        <member name="P:BLL.Model.UserInfoViewModel.Token">
+            <summary>
+            token信息
+            </summary>
+        </member>
+        <member name="P:BLL.Model.UserInfoViewModel.Name">
+            <summary>
+            姓名
+            </summary>
+        </member>
+        <member name="P:BLL.Model.UserInfoViewModel.TelPhone">
+            <summary>
+            电话号码
+            </summary>
+        </member>
+        <member name="P:BLL.Model.UserInfoViewModel.PassWord">
+            <summary>
+            密码
+            </summary>
+        </member>
+        <member name="P:BLL.Model.UserInfoViewModel.AvatarUrl">
+            <summary>
+            头像Url
+            </summary>
+        </member>
+        <member name="P:BLL.Model.UserInfoViewModel.FollowFundModels">
+            <summary>
+            关注基金
+            </summary>
+        </member>
+        <member name="T:BLL.Model.UserLoginModel">
+            <summary>
+            用户登入信息
+            </summary>
+        </member>
+        <member name="P:BLL.Model.UserLoginModel.TelPhone">
+            <summary>
+            用户电话
+            </summary>
+        </member>
+        <member name="P:BLL.Model.UserLoginModel.PassWord">
+            <summary>
+            密码
+            </summary>
+        </member>
+    </members>
+</doc>

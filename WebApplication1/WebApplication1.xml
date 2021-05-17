@@ -1,0 +1,108 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WebApplication1</name>
+    </assembly>
+    <members>
+        <member name="M:WebApplication1.Controllers.BaseFundController.GetFundInfoByName(System.String)">
+            <summary>
+            获取基金信息(编码|名称)
+            </summary>
+            <param name="name">基金编码或者名称</param>
+            <returns></returns>
+        </member>
+        <member name="M:WebApplication1.Controllers.BaseFundController.GetFundInfoById(System.Int32)">
+            <summary>
+            获取基金信息(Id)
+            </summary>
+            <param name="fundId">基金id</param>
+            <returns></returns>
+        </member>
+        <member name="M:WebApplication1.Controllers.BaseFundController.GetFundTypeValue">
+            <summary>
+            获取基金类型
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WebApplication1.Controllers.CommentController.AddSystemCommment(BLL.Model.CommentModel)">
+            <summary>
+            添加基金评论信息
+            </summary>
+            <param name="commentModel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WebApplication1.Controllers.CommentController.GetAllComments">
+            <summary>
+            获取基金评论信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WebApplication1.Controllers.UserInfoController.AddUserInfo(BLL.Model.UserInfoModel)">
+            <summary>
+            添加用户信息
+            </summary>
+            <param name="userInfoModel"></param>
+        </member>
+        <member name="M:WebApplication1.Controllers.UserInfoController.GetUserAvatarUrl(System.String)">
+            <summary>
+            获取用户头像信息
+            </summary>
+            <param name="telPhone">用户电话</param>
+            <returns></returns>
+        </member>
+        <member name="M:WebApplication1.Controllers.UserInfoController.CheckUserLogin(BLL.Model.UserLoginModel)">
+            <summary>
+            验证用户登入信息
+            </summary>
+            <param name="userLoginModel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WebApplication1.Controllers.UserInfoController.GetTokenInfo(BLL.Model.UserLoginModel)">
+            <summary>
+            获取token信息
+            </summary>
+            <param name="userLoginModel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WebApplication1.Controllers.UserInfoController.ExitLogic">
+            <summary>
+            退出登入
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WebApplication1.Controllers.UserInfoController.UpdateUserInfo(BLL.Model.UserInfoModel)">
+            <summary>
+            修改用户数据
+            </summary>
+            <param name="userInfoModel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WebApplication1.Controllers.UserInfoController.UploadFile(Microsoft.AspNetCore.Http.IFormFile)">
+            <summary>
+            上传文件,并返回相对url
+            </summary>
+            <param name="file"></param>
+            <returns></returns>
+        </member>
+        <member name="P:WebApplication1.Filter.ApiResultModel.Code">
+            <summary>
+            状态码
+            </summary>
+        </member>
+        <member name="P:WebApplication1.Filter.ApiResultModel.Content">
+            <summary>
+            内容
+            </summary>
+        </member>
+        <member name="P:WebApplication1.Filter.ApiResultModel.Message">
+            <summary>
+            错误消息
+            </summary>
+        </member>
+        <member name="T:WebApplication1.Filter.ContentFilter">
+            <summary>
+            内容过滤
+            </summary>
+        </member>
+    </members>
+</doc>
